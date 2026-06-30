@@ -4,7 +4,8 @@ A Node.js CLI tool that converts Excel (`.xlsx`) files to PDF.
 
 ## Dependencies
 
-- [exceljs](https://www.npmjs.com/package/exceljs) — reads XLSX files
+- [adm-zip](https://www.npmjs.com/package/adm-zip) — extracts the ZIP archive that makes up an XLSX file
+- [fast-xml-parser](https://www.npmjs.com/package/fast-xml-parser) — parses the XML files inside the archive
 - [pdfkit](https://www.npmjs.com/package/pdfkit) — generates PDF output
 
 ## Installation
