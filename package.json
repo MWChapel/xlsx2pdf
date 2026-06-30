@@ -7,7 +7,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "exceljs": "^4.4.0",
+    "adm-zip": "^0.5.18",
+    "fast-xml-parser": "^5.9.3",
     "pdfkit": "^0.15.0"
   }
 }
