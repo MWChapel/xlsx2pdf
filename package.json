@@ -1,0 +1,13 @@
+{
+  "name": "xlsx2pdf",
+  "version": "1.0.0",
+  "description": "Convert XLSX files to PDF",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "pdfkit": "^0.15.0"
+  }
+}
